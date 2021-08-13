@@ -37,8 +37,22 @@ namespace LinkedList
              Console.WriteLine("Display After Adding element ::");
              Console.WriteLine("-----------------------------------------------");
             
+             Console.WriteLine("Data In Linked List");
+             linkedList.Display();
+
+            //Delete element and then get size
+            linkedList.Delete(40);
+            
+            //Display Data After Add
+            Console.WriteLine("-----------------------------------------------");            
+            Console.WriteLine("Display After Delete element ::");
+            Console.WriteLine("Size of Linked List : " + linkedList.Size());
+            Console.WriteLine("-----------------------------------------------");
+
             Console.WriteLine("Data In Linked List");
             linkedList.Display();
+
+
         }
     }
 }
