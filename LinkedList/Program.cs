@@ -10,7 +10,18 @@ namespace LinkedList
             Console.WriteLine("Welcome To Linked List !");
             Console.WriteLine("-----------------------------------------------");
 
-            //Calling Class LinkedList
+            //Object of Class Sorte LinkedList
+            SortedLinkedList sortedLinkedList = new SortedLinkedList();
+            sortedLinkedList.Add(56);
+            sortedLinkedList.Add(30);
+            sortedLinkedList.Add(40);
+            sortedLinkedList.Add(70);
+
+            Console.WriteLine("Ordered Linked List in Ascending Order ::");
+            Console.WriteLine("-----------------------------------------");
+
+            sortedLinkedList.Display();
+            /*//Calling Class LinkedList
             LinkedList linkedList = new LinkedList();
             linkedList.Add(56);
             linkedList.Add(30);
@@ -22,7 +33,7 @@ namespace LinkedList
             //Adding Data After 30
             linkedList.InsertAtParticularPosition(3, 40);
             
-            /* //Display Data Before Delete Last element 
+            *//* //Display Data Before Delete Last element 
              Console.WriteLine("-----------------------------------------------");
              Console.WriteLine("Display Data Before Delete Last element ::");
              Console.WriteLine("-----------------------------------------------");
@@ -30,7 +41,7 @@ namespace LinkedList
 
              //Delete Last Element
              linkedList.PopLastElement();
-            */
+            *//*
 
              //Display Data After Add
              Console.WriteLine("-----------------------------------------------");
@@ -51,7 +62,7 @@ namespace LinkedList
 
             Console.WriteLine("Data In Linked List");
             linkedList.Display();
-
+*/
 
         }
     }
