@@ -9,8 +9,8 @@ namespace LinkedList
         //Instance
         internal Node head;
 
-        //Adding Data to LinkedList
-        internal void Add(int data)
+        //Appending Data to LinkedList
+        internal void Append(int data)
         {
             //Object of Node
             Node node = new Node(data);
